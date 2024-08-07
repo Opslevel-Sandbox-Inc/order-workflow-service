@@ -18,6 +18,11 @@ service:
     value: orders
   - key: pd_id
     value: PDFGCAK
+  repositories:
+  - name: OpsLevel-Sandbox-Inc/order-workflow-service
+    path: "/"
+    provider: github
+    display_name: order-workflow-service
   tools:
   - name: Admin
     category: admin
